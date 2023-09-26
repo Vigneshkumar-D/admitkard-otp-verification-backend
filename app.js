@@ -3,11 +3,11 @@ const app = express();
 const cors = require('cors');
 app.use(cors());
 app.use(express.json());
-const bodyParser = require("body-parser"); 
 
-const accountSid = "AC1bb8d699defdba0fb5796ca89212a8c5";
-const authToken = "57796996c58772ad04521fafa4c61cf2";
-const verifySid = "VA50de47799563583878033e96c49d077c";
+const bodyParser = require("body-parser"); 
+const accountSid = "ACff7f33e22f7e975d4a963e5bab2e937d";
+const authToken = "9a32a90c6d9fdd14f6ed014676fc1e62";
+const verifySid = "VAc13cec300047e05f89715ee0d2af6fa2";
 const client = require("twilio")(accountSid, authToken); 
 
 app.use(bodyParser.json());
